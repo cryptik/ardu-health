@@ -6,4 +6,10 @@ module default {
         property callsign -> str;
         property firmware -> str;
     }
+
+    type Flight_Test {
+        required property tag -> str;
+        property data -> array<str>;
+    }
+
 }   
